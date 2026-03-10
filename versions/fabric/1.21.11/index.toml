@@ -10,7 +10,7 @@ hash = "b3612a9d6604d93979063473643dc1c312963bc7ac318f764967932a1c0cfde5"
 
 [[files]]
 file = "config/modpack_defaults/config/chatplus/chatplus-v2.7.0.json"
-hash = "1d66d4ab83a783be69534211f35e25e3daef03faa9a97395d2139526954a937d"
+hash = "8dd7924fffec494d9776ba69a524c0738272145fe9aae4c4ed98a498de2b8b70"
 
 [[files]]
 file = "config/modpack_defaults/config/citresewn.json"
@@ -38,7 +38,7 @@ hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
 
 [[files]]
 file = "config/modpack_defaults/config/fancymenu/customization/title_screen_layout.txt"
-hash = "cc6e46b4b0b1dfac4db877fdf17286b4fcb855a3d37264ff84550a1bea86b46f"
+hash = "be90c70011c579733b25b912f6cf4277ac31474a66d639e113ea29caa3becab0"
 
 [[files]]
 file = "config/modpack_defaults/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -50,7 +50,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/modpack_defaults/config/fancymenu/options.txt"
-hash = "f8e652406317d6518d5eb8c37f2112b1b256c4020c80c75820afe3e6a55b825b"
+hash = "cdf598b0b9d49d174c8a95f3d6d78d70d3e83e3e6cb6130aa29b40b8edf38e44"
 
 [[files]]
 file = "config/modpack_defaults/config/fancymenu/slideshows/emcTitleScreen/images/01.png"
@@ -74,6 +74,10 @@ hash = "cf3d1c48eaf532b7d69bbb7050595fea149de72d50615951b643e3040eba095d"
 
 [[files]]
 file = "config/modpack_defaults/config/fancymenu/slideshows/emcTitleScreen/properties.txt"
+hash = "88d97d86ec3eb5ff70466535b8ab330e7a39ecb38bbc5d78b196cbc725e5aeec"
+
+[[files]]
+file = "config/modpack_defaults/config/fancymenu/slideshows/epmcTitleScreen/properties.txt"
 hash = "88d97d86ec3eb5ff70466535b8ab330e7a39ecb38bbc5d78b196cbc725e5aeec"
 
 [[files]]
@@ -417,11 +421,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "565c943b5006c36137a2fe55e4b8433e134c3d1011a37c5f5124cee67b671cb8"
-metafile = true
-
-[[files]]
-file = "mods/rei.pw.toml"
-hash = "a62d7893eae9d5713dbe9c844b2bb9eba53157743c47b6e8abcbdd9075264cc9"
 metafile = true
 
 [[files]]
