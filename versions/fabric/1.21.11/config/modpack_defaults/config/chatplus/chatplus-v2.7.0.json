@@ -28,6 +28,7 @@
         "hasPreviewLinePriority": 20,
         "previewLineColor": -932928701
     },
+    "debugLogging": false,
     "hideChatEnabled": false,
     "hideChatShowWhenFocused": true,
     "hideChatShowHiddenOnScreen": true,
@@ -40,12 +41,15 @@
         "key": "key.keyboard.unknown",
         "modifier": 0
     },
+    "hideChatHideWhenDebugScreen": false,
     "compactMessagesEnabled": true,
     "compactMessagesFormat": " &7(%VALUE%)",
     "compactMessagesSendAsNew": true,
     "compactMessagesDeleteDuplicate": true,
     "compactMessagesRefreshAddedTime": false,
     "compactMessagesSearchAmount": 1,
+    "compactMessagesTimeSeconds": 30,
+    "compactMessagesMode": "LATEST",
     "compactMessageComparatorMode": "VANILLA",
     "compactMessageSettings": {
         "ignoreTimestamps": true,
@@ -79,7 +83,22 @@
     "tabEditorScreen": true,
     "windowEditorScreen": true,
     "scrollCycleTabEnabled": true,
-    "arrowCycleTabEnabled": true,
+    "keyCycleTabLeft": {
+        "key": "key.keyboard.left",
+        "modifier": 0
+    },
+    "keyCycleTabRight": {
+        "key": "key.keyboard.right",
+        "modifier": 0
+    },
+    "keyCycleTabLeftChatClosed": {
+        "key": "key.keyboard.unknown",
+        "modifier": 0
+    },
+    "keyCycleTabRightChatClosed": {
+        "key": "key.keyboard.unknown",
+        "modifier": 0
+    },
     "moveToTabWhenCycling": true,
     "inputBoxAutoAdjustChatWindowEnabled": true,
     "tabNotificationSettings": {
@@ -97,6 +116,7 @@
     "movableChatColor": -922746881,
     "movableChatSelectedColor": -939458816,
     "movableChatToggleTextBarElement": false,
+    "allowWindowsOutsideScreen": false,
     "inputBoxSettings": {
         "startX": 2,
         "startY": -10,
@@ -187,6 +207,7 @@
     "translatorEnabled": true,
     "translatorTextBarElementEnabled": true,
     "translatorRegexes": [],
+    "translateFrom": "Auto Detect",
     "translateTo": "Auto Detect",
     "translateSelf": "Auto Detect",
     "translateSpeak": "English",
@@ -217,12 +238,15 @@
                 "disabled": false,
                 "backgroundColor": -2147483648,
                 "unfocusedBackgroundColorOpacityMultiplier": 0.39999998,
+                "reduceUnfocusedBackgroundOpacityWhenClosed": false,
                 "scale": 1.0,
                 "textOpacity": 1.0,
                 "textShadow": true,
                 "unfocusedTextOpacityMultiplier": 1.0,
+                "reduceUnfocusedTextOpacityWhenClosed": false,
                 "unfocusedHeight": 0.5,
                 "lineSpacing": 0.0,
+                "anchorPoint": "BOTTOM_LEFT",
                 "messageAlignment": "LEFT",
                 "messageDirection": "BOTTOM_UP",
                 "topDownDirectionWrapInOrder": true,
@@ -233,6 +257,7 @@
                 "showWhenChatNotOpen": false,
                 "outlineColor": 0,
                 "unfocusedOutlineColorOpacityMultiplier": 0.39999998,
+                "reduceUnfocusedOutlineOpacityWhenClosed": false,
                 "outlineBoxType": "TEXT_BOX",
                 "outlineTabType": "SELECTED_TAB_OPEN_TOP"
             },
@@ -338,32 +363,6 @@
                     {
                         "settings": [
                             {
-                                "pattern": ".*\\WTrade\\W\\s.*:.*",
-                                "formatted": false,
-                                "serverPattern": {
-                                    "pattern": ""
-                                },
-                                "name": "Trade",
-                                "autoSend": "",
-                                "autoPrefix": "/tradechat ",
-                                "priority": 4,
-                                "alwaysAdd": true,
-                                "skipOthers": false,
-                                "commandsOverrideAutoPrefix": true,
-                                "suggestionsPatterns": [],
-                                "notificationSettings": {
-                                    "disableNotifications": false,
-                                    "notificationMatch": {
-                                        "pattern": "(?s).*",
-                                        "formatted": false
-                                    }
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "settings": [
-                            {
                                 "pattern": ".*\\WLocal\\].*:.*",
                                 "formatted": false,
                                 "serverPattern": {
@@ -371,7 +370,7 @@
                                 },
                                 "name": "Local",
                                 "autoSend": "",
-                                "autoPrefix": "/local ",
+                                "autoPrefix": "/lc ",
                                 "priority": 5,
                                 "alwaysAdd": true,
                                 "skipOthers": false,
@@ -390,7 +389,7 @@
                     {
                         "settings": [
                             {
-                                "pattern": ".*\\WP\\W\\s.*→.*",
+                                "pattern": ".*\\WParty Chat\\W\\s.*:.*",
                                 "formatted": false,
                                 "serverPattern": {
                                     "pattern": ""
