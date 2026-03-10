@@ -1,0 +1,13 @@
+name = "Blocktracker"
+filename = "blocktracker-fabric-3.0.0+mc1.21.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5CpN2OZo/versions/E0DbYORA/blocktracker-fabric-3.0.0%2Bmc1.21.11.jar"
+hash-format = "sha512"
+hash = "0dcee51665013515aa6c4db1ca7ab55f1f683412fe6d2888a46903cd3ad3fcdcc504742eaeb76d55e712e766c8a6694fe4ca8bd2582bcd80bffa983d9abd3be3"
+
+[update]
+[update.modrinth]
+mod-id = "5CpN2OZo"
+version = "E0DbYORA"
