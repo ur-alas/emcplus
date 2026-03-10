@@ -22,7 +22,7 @@ hash = "4ecbd7b9f073f3f8d66d530af6cf1a23555650c433beb3815a5d2fe9c55218fb"
 
 [[files]]
 file = "config/modpack_defaults/config/crash_assistant/config.toml"
-hash = "5d38f19d70ae625afa8cf888ed5ab15050e9af64173b7f3cba87f9ffa12986d5"
+hash = "52fc0137c70713445a34b740e81a3fc77c6ffdfd070b86ae78af6ded5400ca49"
 
 [[files]]
 file = "config/modpack_defaults/config/dynamic_fps.json"
