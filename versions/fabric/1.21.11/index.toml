@@ -50,7 +50,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/modpack_defaults/config/fancymenu/options.txt"
-hash = "f8e652406317d6518d5eb8c37f2112b1b256c4020c80c75820afe3e6a55b825b"
+hash = "00b0048364991ae397766ed8204e16cda46eb9c77ee40533eb01b160942d3092"
 
 [[files]]
 file = "config/modpack_defaults/config/fancymenu/slideshows/emcTitleScreen/images/01.png"
@@ -417,11 +417,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "565c943b5006c36137a2fe55e4b8433e134c3d1011a37c5f5124cee67b671cb8"
-metafile = true
-
-[[files]]
-file = "mods/rei.pw.toml"
-hash = "a62d7893eae9d5713dbe9c844b2bb9eba53157743c47b6e8abcbdd9075264cc9"
 metafile = true
 
 [[files]]
