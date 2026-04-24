@@ -10,7 +10,7 @@ hash = "b3612a9d6604d93979063473643dc1c312963bc7ac318f764967932a1c0cfde5"
 
 [[files]]
 file = "config/modpack_defaults/config/chatplus/chatplus-v2.7.0.json"
-hash = "1d66d4ab83a783be69534211f35e25e3daef03faa9a97395d2139526954a937d"
+hash = "c2a750de2d40c1a37e0c6dc8b82287f5f20d8e95264377a190090c0dd9d54e70"
 
 [[files]]
 file = "config/modpack_defaults/config/citresewn.json"
@@ -19,10 +19,6 @@ hash = "080ec08b7754723a3fa7c45cc0c37f251cc69ff5a07c06bb0f9cb40596373bbe"
 [[files]]
 file = "config/modpack_defaults/config/controlify.json"
 hash = "4ecbd7b9f073f3f8d66d530af6cf1a23555650c433beb3815a5d2fe9c55218fb"
-
-[[files]]
-file = "config/modpack_defaults/config/crash_assistant/config.toml"
-hash = "52fc0137c70713445a34b740e81a3fc77c6ffdfd070b86ae78af6ded5400ca49"
 
 [[files]]
 file = "config/modpack_defaults/config/dynamic_fps.json"
@@ -38,7 +34,7 @@ hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
 
 [[files]]
 file = "config/modpack_defaults/config/fancymenu/customization/title_screen_layout.txt"
-hash = "cc6e46b4b0b1dfac4db877fdf17286b4fcb855a3d37264ff84550a1bea86b46f"
+hash = "3fd19e95006a6d6e5542abd544964ad75b51a46d59d9bf793083a0bb1fed9b46"
 
 [[files]]
 file = "config/modpack_defaults/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -165,11 +161,6 @@ hash = "a609d07cf2fb7db51302175cab7150943931127d8b7634480e7c17d55dec924b"
 metafile = true
 
 [[files]]
-file = "mods/bobby.pw.toml"
-hash = "5e097f95b8818e0999b4e867351745441f90c9bcf2a9c68cd19d5d708da4a4a1"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "b37ecd626251b32c8f0b692ac57a83d1e1c2b7fe2172ddf0bdec61c573614b26"
 metafile = true
@@ -207,11 +198,6 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "d8e2eb843f684b6abe48010c4ebf3e1300bd0fe9a4132e2744757d850171f4b7"
-metafile = true
-
-[[files]]
-file = "mods/crash-assistant.pw.toml"
-hash = "8fc579768f43217f0d9a300c29daacc71313254b26a29e22db90912b8d6e7a11"
 metafile = true
 
 [[files]]
@@ -420,6 +406,11 @@ hash = "565c943b5006c36137a2fe55e4b8433e134c3d1011a37c5f5124cee67b671cb8"
 metafile = true
 
 [[files]]
+file = "mods/rei.pw.toml"
+hash = "a62d7893eae9d5713dbe9c844b2bb9eba53157743c47b6e8abcbdd9075264cc9"
+metafile = true
+
+[[files]]
 file = "mods/renderscale.pw.toml"
 hash = "b4c4f1163795d12bb392a2645b886b6afc6e7b3e4d28af4968a6ca0c74fcb606"
 metafile = true
@@ -456,7 +447,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "0b4c98b7b25cdfcbb7882c32155d597f0fcaa37aa301b14baf4ad8cab65fea85"
+hash = "74d55f8ffee46b10c6d4c709c298a72e1233cdd393707c223b3e861d7f104a88"
 metafile = true
 
 [[files]]
@@ -467,6 +458,11 @@ metafile = true
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
 hash = "62b351fa55e61a36efa5530ea2dcbbbf8662ac791e42656fc28cef6d6918e623"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
+hash = "f2cd50a5fead333e9474f7189eac26e7c32ba6e6aa320f1eb014d1c37f13bd92"
 metafile = true
 
 [[files]]
